@@ -1,3 +1,6 @@
+# models.py
+# Joseph Schmoyer
+# Jan 27, 2024
 from extensions import db
 
 # Tables for database

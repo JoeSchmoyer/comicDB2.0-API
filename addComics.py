@@ -1,3 +1,6 @@
+# addComics.py
+# Joseph Schmoyer
+# Jan 27, 2024
 from app import app, db
 from models import Comic
 

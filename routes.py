@@ -1,8 +1,11 @@
+# routes.py
+# Joseph Schmoyer
+# Jan 27, 2024
 from flask import render_template
 from app import app
 from models import Comic
 
-# Routes to create website
+# Routes to do basic webpage (overwritten with api)
 # Display all records
 
 
