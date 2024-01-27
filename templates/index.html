@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="title">{% block title %} Comics {% endblock %}</h1>
+    <div class="content">
+        {% for comic in comics %}
+            <div class="student">
+                <p><b>#{{ comic.id }}</b></p>
+                <b>
+                    <p class="name">{{ comic.title }}</p>
+                </b>
+                <p>By: {{ comic.author }}</p>
+                <p>Art By: {{ comic.artist }}</p>
+                <p>Publisher: {{ comic.publisher }}</p>
+                <p>Publication Date: {{ comic.publication_date }}</p>
+                <p>Completed: {{ comic.completed }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
