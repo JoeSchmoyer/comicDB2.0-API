@@ -12,7 +12,7 @@ comic_model = api.model("Comic", {
     "publisher": fields.String,
     "author": fields.String,
     "artist": fields.String,
-    "publication_date": fields.Date,
+    "publication_date": fields.String,
     "completed": fields.Boolean
 })
 
